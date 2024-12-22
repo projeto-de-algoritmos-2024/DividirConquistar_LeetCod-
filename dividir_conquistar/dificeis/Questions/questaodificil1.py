@@ -5,37 +5,37 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: float
         """
-        # Garantir que nums1 seja o menor array para eficiência
-        if len(nums1) > len(nums2):
-            return self.findMedianSortedArrays(nums2, nums1)
+        def select_kth(nums, k):
+            # Implementa o algoritmo "Mediana das Medianas"
+            if len(nums) <= 5:
+                return sorted(nums)[k]
 
-        m, n = len(nums1), len(nums2)
-        low, high = 0, m
+            # Divide o array em grupos de 5
+            groups = [nums[i:i+5] for i in range(0, len(nums), 5)]
+            medians = [sorted(group)[len(group) // 2] for group in groups]
+            
+            # Recursivamente encontre a mediana das medianas
+            pivot = select_kth(medians, len(medians) // 2)
 
-        while low <= high:
-            partition_x = (low + high) // 2
-            partition_y = (m + n + 1) // 2 - partition_x
+            # Particione o array em relação ao pivô
+            lows = [x for x in nums if x < pivot]
+            highs = [x for x in nums if x > pivot]
+            pivots = [x for x in nums if x == pivot]
 
-            max_left_x = float('-inf') if partition_x == 0 else nums1[partition_x - 1]
-            min_right_x = float('inf') if partition_x == m else nums1[partition_x]
-
-            max_left_y = float('-inf') if partition_y == 0 else nums2[partition_y - 1]
-            min_right_y = float('inf') if partition_y == n else nums2[partition_y]
-
-            if max_left_x <= min_right_y and max_left_y <= min_right_x:
-                # Encontrou a partição correta
-                if (m + n) % 2 == 0:
-                    # Número par de elementos
-                    return (max(max_left_x, max_left_y) + min(min_right_x, min_right_y)) / 2.0
-                else:
-                    # Número ímpar de elementos
-                    return float(max(max_left_x, max_left_y))
-            elif max_left_x > min_right_y:
-                # Precisa mover partition_x para a esquerda
-                high = partition_x - 1
+            if k < len(lows):
+                return select_kth(lows, k)
+            elif k < len(lows) + len(pivots):
+                return pivot
             else:
-                # Precisa mover partition_x para a direita
-                low = partition_x + 1
+                return select_kth(highs, k - len(lows) - len(pivots))
 
-        # Este ponto nunca deve ser alcançado se os arrays forem classificados
-        raise ValueError("Os arrays não são classificados ou há um problema.")
+        def find_median(nums):
+            n = len(nums)
+            if n % 2 == 0:
+                return (select_kth(nums, n // 2 - 1) + select_kth(nums, n // 2)) / 2.0
+            else:
+                return select_kth(nums, n // 2)
+
+        # Combina os dois arrays
+        merged = nums1 + nums2
+        return find_median(merged)
