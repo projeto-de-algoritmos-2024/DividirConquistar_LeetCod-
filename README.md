@@ -100,7 +100,7 @@
             <td><a href="https://youtu.be/1aJr32nAzII" target="_blank">Difícil 1</a></td>
         </tr>
         <tr>
-            <td><a href="link_do_video" target="_blank">Difícil 2</a></td>
+            <td><a href="https://youtu.be/3_ks0CxTmDM?si=f0YmbmzYhisUb3Ln" target="_blank">Difícil 2</a></td>
         </tr>
     </tbody>
 </table>
