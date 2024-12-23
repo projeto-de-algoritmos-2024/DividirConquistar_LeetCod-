@@ -1,20 +1,15 @@
-## 743. Network Delay Time
+## 912. Sort an Array
 
-https://leetcode.com/problems/network-delay-time/description/
+https://leetcode.com/problems/sort-an-array/
 
 # Nível da questão:  <span style="color: yellow;">Médio</span>
 
 ## Resultados do juiz eletrônico
-![](/Grafos2/Assets/Question2media_result.png)
+![](/dividir_conquistar/Assets/result_media1.png)
 
 
 #### Caso 1:
-![](/Grafos2/Assets/Question2media_case1.png)
+![](/dividir_conquistar/Assets/caso1_media1.png)
 
 #### Caso 2:
-![](/Grafos2/Assets/Question2media_case2.png)
-
-#### Caso 3:
-
-![](/Grafos2/Assets/Question2media_Case3.png)
-
+![](/dividir_conquistar/Assets/caso2_media1.png)
