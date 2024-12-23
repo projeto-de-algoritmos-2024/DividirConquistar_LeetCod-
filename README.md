@@ -23,7 +23,7 @@
             <td><a href="" target="_blank"></td>
             <td>Médio</td>
         <tr>
-            <td><a href="" target="_blank"></td>
+            <td><a href="https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/?envType=daily-question&envId=2024-12-23" target="Media 2"></td>
             <td>Médio</td>
         </tr>
         </tr>
@@ -32,7 +32,7 @@
             <td>Difícil</td>
         </tr>
         <tr>
-            <td><a href="" target="_blank"></td>
+            <td><a href="https://leetcode.com/problems/merge-k-sorted-lists/" target="Dificil 2"></td>
             <td>Difícil</td>
         </tr>
     </tbody>
