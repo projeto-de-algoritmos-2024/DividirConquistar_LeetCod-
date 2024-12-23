@@ -91,13 +91,13 @@
     </thead>
     <tbody>
         <tr>
-            <td><a href="link_do_video" target="_blank">Média 1</a></td>
+            <td><a href="https://youtu.be/wolblVhifGI" target="_blank">Média 1</a></td>
         </tr>
         <tr>
             <td><a href="" target="_blank">Média 2</a></td>
         </tr>
         <tr>
-            <td><a href="" target="_blank">Difícil 1</a></td>
+            <td><a href="https://youtu.be/1aJr32nAzII" target="_blank">Difícil 1</a></td>
         </tr>
         <tr>
             <td><a href="link_do_video" target="_blank">Difícil 2</a></td>
