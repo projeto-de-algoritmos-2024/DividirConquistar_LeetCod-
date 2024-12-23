@@ -7,4 +7,12 @@
 ## Resultados do juiz eletrônico
 ![](/dividir_conquistar/Assets/resultmedia2.png)
 
+#### Caso 1:
+![](/dividir_conquistar/Assets/case1_media2.png)
 
+#### Caso 2:
+![](/dividir_conquistar/Assets/case2media2.png)
+
+#### Caso 3:
+
+![](/dividir_conquistar/Assets/case3media2.png)
