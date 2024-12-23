@@ -9,7 +9,7 @@ link do problema
 
 
 #### Caso 1:
-![](/Grafos2/Assets/Question2dificil_case1.png)
+![](/Grafos2/Assets/result_dificil1.png)
 
 #### Caso 2:
 ![](/Grafos2/Assets/Question2dificil_case2.png)

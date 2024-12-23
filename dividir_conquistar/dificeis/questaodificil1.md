@@ -1,15 +1,14 @@
 ## 
-link do problema
+https://leetcode.com/problems/median-of-two-sorted-arrays/description/
 
 # Nível da questão:  <span style="color: red;">Difícil</span>
 
 ## Resultados do juiz eletrônico
-![](/Grafos2/Assets/Questao1dificil_result.png)
+![](/dividir_conquistar/Assets/result_difcil1.png)
 
 
 #### Caso 1:
-![](/Grafos2/Assets/Question1dificil_case1.png)
+![](/dividir_conquistar/Assets/caso1_dificil1.png)
 
 #### Caso 2:
-![](/Grafos2/Assets/Questao1dificil_case2.png)
-
+![](/dividir_conquistar/Assets/caso2_dificl1.png)

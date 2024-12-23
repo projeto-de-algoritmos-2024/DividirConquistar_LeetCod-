@@ -28,7 +28,7 @@
         </tr>
         </tr>
         <tr>
-            <td><a href="" target="_blank"></td>
+            <td><a href="https://leetcode.com/problems/median-of-two-sorted-arrays/" target="_blank"></td>
             <td>Difícil</td>
         </tr>
         <tr>
