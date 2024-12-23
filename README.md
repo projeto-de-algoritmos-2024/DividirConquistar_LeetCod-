@@ -20,7 +20,7 @@
     </thead>
     <tbody>
         <tr>
-            <td><a href="" target="_blank"></td>
+            <td><a href="https://leetcode.com/problems/sort-an-array/description/" target="_blank">912. Sort an Array</td>
             <td>Médio</td>
         <tr>
             <td><a href="https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/?envType=daily-question&envId=2024-12-23" target="_blank">2471. Minimum Number of Operations to Sort a Binary Tree by Level</td>
@@ -28,7 +28,7 @@
         </tr>
         </tr>
         <tr>
-            <td><a href="https://leetcode.com/problems/median-of-two-sorted-arrays/" target="_blank"></td>
+            <td><a href="https://leetcode.com/problems/median-of-two-sorted-arrays/" target="_blank">4. Median of Two Sorted Arrays</td>
             <td>Difícil</td>
         </tr>
         <tr>
