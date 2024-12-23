@@ -23,7 +23,7 @@
             <td><a href="" target="_blank"></td>
             <td>Médio</td>
         <tr>
-            <td><a href="https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/?envType=daily-question&envId=2024-12-23" target="Media 2"></td>
+            <td><a href="https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/?envType=daily-question&envId=2024-12-23" target="2471. Minimum Number of Operations to Sort a Binary Tree by Level"></td>
             <td>Médio</td>
         </tr>
         </tr>
