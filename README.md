@@ -94,7 +94,7 @@
             <td><a href="https://youtu.be/wolblVhifGI" target="_blank">Média 1</a></td>
         </tr>
         <tr>
-            <td><a href="" target="_blank">Média 2</a></td>
+            <td><a href="https://youtu.be/Jqip9J3S8ks?si=c9VlIi04JVzKvfgp" target="_blank">Média 2</a></td>
         </tr>
         <tr>
             <td><a href="https://youtu.be/1aJr32nAzII" target="_blank">Difícil 1</a></td>

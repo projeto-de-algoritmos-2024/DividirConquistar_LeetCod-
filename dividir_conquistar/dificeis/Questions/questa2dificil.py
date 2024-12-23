@@ -2,10 +2,7 @@ import heapq
 
 class Solution(object):
     def mergeKLists(self, lists):
-        """
-        :type lists: List[ListNode]
-        :rtype: ListNode
-        """
+       
         # Verifica se a lista de listas está vazia ou nula
         if not lists or len(lists) == 0:
             return None
